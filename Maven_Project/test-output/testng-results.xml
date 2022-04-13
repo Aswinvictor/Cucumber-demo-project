@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="105" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="105" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+      <class name="com.testng.MaggiRecipe">
+        <test-method status="PASS" signature="heatWater()[pri:1, instance:com.testng.MaggiRecipe@34cd072c]" name="heatWater" duration-ms="13" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heatWater -->
+        <test-method status="PASS" signature="putMaggi()[pri:2, instance:com.testng.MaggiRecipe@34cd072c]" name="putMaggi" duration-ms="2" started-at="2022-04-07T17:15:17 PDT" depends-on-methods="com.testng.MaggiRecipe.heatWater" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMaggi -->
+        <test-method status="PASS" signature="addMasala()[pri:3, instance:com.testng.MaggiRecipe@34cd072c]" name="addMasala" duration-ms="2" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMasala -->
+        <test-method status="PASS" signature="cookMaggi()[pri:4, instance:com.testng.MaggiRecipe@34cd072c]" name="cookMaggi" duration-ms="3" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookMaggi -->
+        <test-method status="PASS" signature="serveMaggie()[pri:5, instance:com.testng.MaggiRecipe@34cd072c]" name="serveMaggie" duration-ms="3" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serveMaggie -->
+        <test-method status="PASS" signature="serveMaggie()[pri:5, instance:com.testng.MaggiRecipe@34cd072c]" name="serveMaggie" duration-ms="2" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serveMaggie -->
+        <test-method status="PASS" signature="serveMaggie()[pri:5, instance:com.testng.MaggiRecipe@34cd072c]" name="serveMaggie" duration-ms="2" started-at="2022-04-07T17:15:17 PDT" finished-at="2022-04-07T17:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serveMaggie -->
+      </class> <!-- com.testng.MaggiRecipe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
